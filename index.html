@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Msg</title>
+    <!-- <link href="style.css" rel="stylesheet"> -->
+    <link href="style2.css" rel="stylesheet">
+  </head>
+  <body>
+        <section>
+            <div>
+              <h1>KAAZDW</h1>
+              <p>DISCORD Webhook Messenger</p>
+              <form>
+                  <input type="text" name="username" id="username" placeholder="username"><br/>
+                  <textarea type="text" name="content" id="content" placeholder="message"></textarea><br/>
+                  <!-- <textarea type="text" name="content" id="content" ></textarea> -->
+
+                  <button onclick="Send()">Envoyé</button>
+              </form>
+            </div>  
+          </section>
+
+  </body>
+  <script>
+
+    function Send() {
+	var message = document.getElementById("content").value;
+	var username = document.getElementById("username").value;
+    console.log("username = " + username);
+    console.log("content = " + content);
+      const request = new XMLHttpRequest();
+      request.open("POST", "https://discord.com/api/webhooks/1022560446194122873/rwhzHz1TPuDK7y1zCyKuijSlQa12nEF3Uv4iJuSzBoRn9vbwJqjksDD2lJJC7is7vN5W");
+
+      request.setRequestHeader('Content-type', 'application/json');
+
+      const params = {
+        username: username,
+        avatar_url: "https://i.pinimg.com/564x/47/77/ae/4777ae0906dd0113ad0bb00d61125d1b.jpg",
+        content: message
+      }
+
+      if (a > 0) {
+    result = 'positive';
+  } else {
+    result = 'NOT positive';
+  }
+
+      request.send(JSON.stringify(params));
+      if (username.value == "" || message.value == "") alert("Champ vide");
+      // if (message.value < 10) alert("Message trop court, 10char minimum");
+      // if (username.value < 3) alert("username trop court, 3char");
+      // if (message.value < 10) alert("Message trop court");
+      alert("Message envoyé");
+    }
+  </script>
+</html>
