@@ -13,9 +13,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("fond.png");
 }
 section{
-    background-color: rgba(17, 17, 17, 0.26);
+    background-color: rgb(34, 34, 34);
     border: 1px solid white;
     padding: 45px 45px;
     border-radius: 15px;
