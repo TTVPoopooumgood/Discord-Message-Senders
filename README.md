@@ -10,11 +10,12 @@
 If you want to set it up for your project, start by creating a personal webhook on a server where you have the permissions, copy the URL, and paste it instead of {[URLtoken]} in the function below.
 <br><br>
 
+```html
+<input id="username">
+<textarea id="content>
+<button onClick="Send()">
 ```
-|| <input id="username">
-|| <textarea id="content>
-|| <button onClick="Send()">
-
+```javascript
 
 function Send() {
      var message = document.getElementById("content").value;
