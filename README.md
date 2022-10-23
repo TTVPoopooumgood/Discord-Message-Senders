@@ -3,7 +3,7 @@
 *"Webhooks are a low-effort way to post messages to channels in Discord. They do not require a bot user or authentication to use."* - Discord
 
 <p align="center"> 
- <a href="https://discord.com/developers/docs/resources/webhook" alt="Discord's Webhook Documentation"> > See the official Discord's documentation <</a>
+ <a href="https://discord.com/developers/docs/resources/webhook" alt="Discord's Webhook Documentation" target="_blank"> > See the official Discord's documentation <</a>
 
 </p>
 <br><br>
