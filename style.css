@@ -107,7 +107,6 @@ button svg{
     height: 25px;
     margin-left: 10px;
 }
-
 ::placeholder{
     color: black;
 }
@@ -116,6 +115,9 @@ button svg{
     justify-content: center;
     margin-top: 15px;
     align-items: center;
+}
+.send-buttondiv *, input, textarea{
+    transition: .3s;
 }
 .send-buttondiv a {
     margin-left: 5px;
@@ -127,6 +129,10 @@ button svg{
     margin-top: 6.5px;
     border-radius: 5px;
 }
+.send-buttondiv a svg:hover, .send-buttondiv button:hover, input:hover, textarea:hover{
+    background-color: rgb(166, 176, 180);
+}
+
 h1{
     margin-top: 100px;
     letter-spacing: 1px;
