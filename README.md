@@ -1,4 +1,4 @@
-<h1 align="center"> :computer: Discord Webhook Messenger </h1>
+<h1 align="center"> :computer: Discord Webhook Messenger (NOT FUNCTIONNAL ATM i will correct it soon) </h1>
 
 *"Webhooks are a low-effort way to post messages to channels in Discord. They do not require a bot user or authentication to use."* - Discord
 
