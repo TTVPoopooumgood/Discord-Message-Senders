@@ -1,20 +1,3 @@
-// Connexion();
-// function Connexion() {
-//     const request = new XMLHttpRequest();
-//     request.open("POST", "https://discord.com/api/webhooks/1022948477442998323/BCx-BiyY71uG8Wdu-ds8N9BA04XwoNXvfPTCzfNmZDXgiY9gjlk5quJWWmdi836BnjLW");
-
-//     request.setRequestHeader('Content-type', 'application/json');
-    
-//     const params = {
-//     username: "AlertConnect",
-//     avatar_url: "https://i.pinimg.com/564x/47/77/ae/4777ae0906dd0113ad0bb00d61125d1b.jpg",
-//     content: "+1c to DISCORD Webhook Messenger"
-//     }
-//     request.send(JSON.stringify(params));
-
-// }
-
-
 function Send() {
     var message = document.getElementById("content").value;
     var username = document.getElementById("username").value;

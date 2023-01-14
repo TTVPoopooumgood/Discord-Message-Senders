@@ -8,6 +8,7 @@
 </p>
 <br><br>
 If you want to set it up for your project, start by creating a personal webhook on a server where you have the permissions, copy the URL, and paste it instead of {[URLtoken]} in the function below.
+<img src="Capture.PNG">
 <br><br>
 
 ```html
