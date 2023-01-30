@@ -1,5 +1,5 @@
 <h1 align="center"> :computer: Discord Webhook Messenger</h1>
-<p>!!! the Github Host Page of this project is not functionnal, Discord doesn't allow to put personnel webhook API Token in Open Sources Project's so the host page can not send anything. But in local or personnal host it's work np.
+<p>!!! the Github Host Page of this project is not functionnal, i can't put personnel webhook API Token in Open Sources Project's so the host page can not send anything. But in local or personnal host it's work.
 <div align="center">
    <img src="Capture.PNG">
 </div>
