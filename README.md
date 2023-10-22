@@ -1,14 +1,7 @@
 <h1 align="center"> :computer: Discord Webhook Messenger</h1>
-<p>!!! the Github Host Page of this project is not functionnal, i can't put personnel webhook API Token in Open Sources Project's so the host page can not send anything. But in local or personnal host it's work.
-<div align="center">
-   <img src="Capture.PNG">
-</div>
 <br><br></p>
-*"Webhooks are a low-effort way to post messages to channels in Discord. They do not require a bot user or authentication to use."* - Discord
-
 <p align="center"> 
- <a href="https://discord.com/developers/docs/resources/webhook" alt="Discord's Webhook Documentation" target="_blank"> > See the official Discord's documentation <</a>
-
+ <a href="https://discord.com/developers/docs/resources/webhook" alt="Discord's Webhook Documentation" target="_blank"> >Discord's documentation <</a>
 </p>
 <br><br>
 If you want to set it up for your project, start by creating a personal webhook on a server where you have the permissions, copy the URL, and paste it instead of {[URLtoken]} in the function below.
