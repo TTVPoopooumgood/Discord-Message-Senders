@@ -35,7 +35,4 @@ function Send() {
 	    alert("Content SEND");
 }
 ```
-<br><br>
-If this small project helps you, feel free to star or share it :)
-
-*- Kaaz*
+<br>
